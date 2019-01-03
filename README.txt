@@ -1,0 +1,2 @@
+compile with
+gcc main.c -lncurses
