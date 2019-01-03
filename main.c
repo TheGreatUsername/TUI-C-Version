@@ -395,6 +395,7 @@ void update(){
     sprintf(s, "%c", ' ');
     for (i = 0; i < scrw - 1; i++)
         mvprintw(scrh-1, i, s);
+    free(s);
     char * messsub = substr(message, 0, editw-1);
     mvprintw(scrh-1, 0, messsub);
 }
